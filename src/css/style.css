@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    font-family: "roboto", sans-serif;
+}
+
+.imagem {
+    display: none;
+    height: 100vh;
+}
+
+.imagem-ativa {
+    display: block;
+}
+
+.seta-esquerda {
+    position: absolute;
+    height: 60px;
+    top: 50%;
+    left: 50px;
+    rotate: 180deg;
+}
+
+.seta-direita {
+    position: absolute;
+    height: 60px;
+    top: 50%;
+    right: 50px;
+}
+
+.imagem-rosa {
+    background: url('/img/flores-rosas.jpg') center center no-repeat;
+}
+
+.imagem-verde {
+    background: url('/img/flores-verdes.jpg') center center no-repeat;
+}
+
+.imagem-montanhas {
+    background: url('/img/montanhas.jpg') center center no-repeat;
+}
+
+.imagem-lago {
+    background: url('/img/lago.jpg') center center no-repeat;
+}
+
+.info {
+    background-color: #fff;
+    width: 520px;
+    height: 600px;
+    position: absolute;
+    top: 186px;
+    left: 180px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.info h2 {
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.info p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.info a {
+    font-size: 23px;
+    font-weight: 700;
+    color: #c50000;
+}
+
+.seta-inativa {
+    opacity: .5;
+}
